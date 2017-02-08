@@ -6,6 +6,10 @@ public class Lab3Exercises {
 		//Adjust .setLocation to aprox the center of the display
 		myFrame.setLocation(800,500);
 		myFrame.setSize(400, 100);
+		
+        MyPanelClass myPanel = new MyPanelClass();
+        myFrame.getContentPane().add(myPanel);
+		
 		myFrame.setVisible(true);
 		
 		
