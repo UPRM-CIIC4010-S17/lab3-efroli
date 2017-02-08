@@ -7,5 +7,8 @@ public class Lab3Exercises {
 		myFrame.setLocation(200, 200);
 		myFrame.setSize(400, 100);
 		myFrame.setVisible(true);
+		
+		//Moving frame to center of screen
+		//Translate Ch.3 
 	}
 }
