@@ -5,11 +5,12 @@ public class Lab3Exercises {
 		myFrame.setDefaultCloseOperation(JFrame.DISPOSE_ON_CLOSE);
 		//Adjust .setLocation to aprox the center of the display
 		myFrame.setLocation(800,350);
-		myFrame.setSize(400, 400);
 		
+		//*****myFrame.setSize(400, 400); FRAME TO FINISH OVAL
+		
+		myFrame.setSize(225, 150);
         MyPanelClass myPanel = new MyPanelClass();
         myFrame.getContentPane().add(myPanel);
-		
 		myFrame.setVisible(true);
 		
 		
