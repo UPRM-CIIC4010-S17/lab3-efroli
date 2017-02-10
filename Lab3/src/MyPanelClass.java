@@ -26,7 +26,7 @@ public class MyPanelClass extends JPanel
 		int height = y2 - y1;
 
 		//Paint the background
-		g.setColor(Color.white);
+		g.setColor(Color.WHITE);
 		g.fillRect(x1, y1, width + 1, height + 1);
 		//g.fillRect(x1, y1, width, height);
 
@@ -48,12 +48,13 @@ public class MyPanelClass extends JPanel
 		//        // Note: Value of x is chosen (left) then you determine if it is top or bottom based on y's value.
 		//       
 
-
-		/*	    INCOMPLETE
-  		//Draw a Oval
-        g.setColor(Color.LIGHT_GRAY);
-        g.fillOval(x1, y1, 55, 55);
-		 */       
+		
+////INCOMPLETE OVAL
+//  			  //Draw a Oval
+//				  g.setColor(Color.LIGHT_GRAY);
+//        		  g.fillOval(x1, y1, width-320, height-300);
+//        
+		       
 
 		//        //Draw an Arrow
 		//        Polygon p = new Polygon();
