@@ -146,9 +146,7 @@ public class MyPanelClass extends JPanel
                         p2.addPoint(x1 + 19, y1 + 81);
                         p2.addPoint(x1 + 23, y1 + 66);
                         g.setColor(Color.WHITE);
-                        g.fillPolygon(p2);
-                   
-
+                        g.fillPolygon(p2);                
                         
             }
 }
