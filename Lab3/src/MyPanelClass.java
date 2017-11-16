@@ -135,18 +135,18 @@ public class MyPanelClass extends JPanel
                         
                       //Estrella
                         Polygon p2 = new Polygon();
-                        p2.addPoint(x1 + 15, y1 + 63);
-                        p2.addPoint(x1 + 31, y1 + 63);
-                        p2.addPoint(x1 + 37, y1 + 48);
-                        p2.addPoint(x1 + 43, y1 + 63);
-                        p2.addPoint(x1 + 59, y1 + 63);
-                        p2.addPoint(x1 + 46, y1 + 73);
-                        p2.addPoint(x1 + 51, y1 + 88);
-                        p2.addPoint(x1 + 37, y1 + 78);
-                        p2.addPoint(x1 + 24, y1 + 88);
-                        p2.addPoint(x1 + 28, y1 + 73);
+                        p2.addPoint(x1 + 10, y1 + 56);
+                        p2.addPoint(x1 + 26, y1 + 56);
+                        p2.addPoint(x1 + 32, y1 + 41);
+                        p2.addPoint(x1 + 38, y1 + 56);
+                        p2.addPoint(x1 + 54, y1 + 56);
+                        p2.addPoint(x1 + 41, y1 + 66);
+                        p2.addPoint(x1 + 46, y1 + 81);
+                        p2.addPoint(x1 + 32, y1 + 71);
+                        p2.addPoint(x1 + 19, y1 + 81);
+                        p2.addPoint(x1 + 23, y1 + 66);
                         g.setColor(Color.WHITE);
-                        g.drawPolygon(p2);
+                        g.fillPolygon(p2);
                    
 
                         
