@@ -16,4 +16,3 @@ public class Lab3Exercises {
 		
 	}
 }
-

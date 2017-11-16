@@ -76,13 +76,13 @@ public class MyPanelClass extends JPanel
 //                        g.drawPolygon(p2);
                         
                         
-                        //La Mono Estrella                          
+                        //LA MONO-ESTRELLA!                          
 
                         //Franja Roja Superior
                         Polygon p4 = new Polygon();
                         p4.addPoint(x1, y1);
-                        p4.addPoint(x1,y1+30);
-                        p4.addPoint(width+1,y1+30);
+                        p4.addPoint(x1,getHeight()/5);
+                        p4.addPoint(width+1,getHeight()/5);
                         p4.addPoint(width+1,y1);
                         g.setColor(Color.RED);
                         g.fillPolygon(p4);
@@ -90,63 +90,63 @@ public class MyPanelClass extends JPanel
                         
                         //Franja Blanca Superior
                         Polygon p5 = new Polygon();
-                        p5.addPoint(x1, y1+30);
-                        p5.addPoint(x1,y1+60);
-                        p5.addPoint(width+1,y1+60);
-                        p5.addPoint(width+1,y1+30);
+                        p5.addPoint(x1, getHeight()/5);
+                        p5.addPoint(x1,(getHeight()*2)/5);
+                        p5.addPoint(width+1,(getHeight()*2)/5);
+                        p5.addPoint(width+1,(getHeight())/5);
                         g.setColor(Color.WHITE);
                         g.fillPolygon(p5);
                         
                         //Franja Roja Central
                         Polygon p6 = new Polygon();
-                        p6.addPoint(x1, y1+60);
-                        p6.addPoint(x1,y1+90);
-                        p6.addPoint(width+1,y1+90);
-                        p6.addPoint(width+1,y1+60);
+                        p6.addPoint(x1,(getHeight()*2)/5);
+                        p6.addPoint(x1,(getHeight()*3)/5);
+                        p6.addPoint(width+1,(getHeight()*3)/5);
+                        p6.addPoint(width+1,(getHeight()*2)/5);
                         g.setColor(Color.RED);
                         g.fillPolygon(p6);
                         
                       //Franja Blanca Inferior
                         Polygon p7 = new Polygon();
-                        p7.addPoint(x1, y1+90);
-                        p7.addPoint(x1,y1+120);
-                        p7.addPoint(width+1,y1+120);
-                        p7.addPoint(width+1,y1+90);
+                        p7.addPoint(x1, (getHeight()*3)/5);
+                        p7.addPoint(x1,(getHeight()*4)/5);
+                        p7.addPoint(width+1,(getHeight()*4)/5);
+                        p7.addPoint(width+1,(getHeight()*3)/5);
                         g.setColor(Color.white);
                         g.fillPolygon(p7);
                         
-//        EN PROCESSO              //Franja Roja Central
-//                        Polygon p8 = new Polygon();
-//                        p8.addPoint(x1, y1+60);
-//                        p8.addPoint(x1,y1+90);
-//                        p8.addPoint(width+1,y1+90);
-//                        p8.addPoint(width+1,y1+60);
-//                        g.setColor(Color.RED);
-//                        g.fillPolygon(p8);
+                      //Franja Roja Inferior
+                        Polygon p8 = new Polygon();
+                        p8.addPoint(x1, (getHeight()*4)/5);
+                        p8.addPoint(x1,height+1);
+                        p8.addPoint(width+1,height+1);
+                        p8.addPoint(width+1,(getHeight()*4)/5);
+                        g.setColor(Color.RED);
+                        g.fillPolygon(p8);
                         
                         
-//                      //Triangulo
-//                        Polygon p3 = new Polygon();
-//                        p3.addPoint(x1, y1);
-//                        p3.addPoint(getWidth()/2, getHeight()/2);
-//                        p3.addPoint(x1, y2);
-//                        g.setColor(Color.CYAN);
-//                        g.fillPolygon(p3);
-//
-//                        //Estrella
-//                        Polygon p2 = new Polygon();
-//                        p2.addPoint(x1 + 25, y1 + 73);
-//                        p2.addPoint(x1 + 41, y1 + 73);
-//                        p2.addPoint(x1 + 47, y1 + 58);
-//                        p2.addPoint(x1 + 53, y1 + 73);
-//                        p2.addPoint(x1 + 69, y1 + 73);
-//                        p2.addPoint(x1 + 56, y1 + 83);
-//                        p2.addPoint(x1 + 61, y1 + 98);
-//                        p2.addPoint(x1 + 47, y1 + 88);
-//                        p2.addPoint(x1 + 34, y1 + 98);
-//                        p2.addPoint(x1 + 38, y1 + 83);
-//                        g.setColor(Color.WHITE);
-//                        g.fillPolygon(p2);
+                      //Triangulo
+                        Polygon p3 = new Polygon();
+                        p3.addPoint(x1, y1);
+                        p3.addPoint(getWidth()/2, getHeight()/2);
+                        p3.addPoint(x1, y2);
+                        g.setColor(Color.CYAN);
+                        g.fillPolygon(p3);
+                        
+                      //Estrella
+                        Polygon p2 = new Polygon();
+                        p2.addPoint(x1 + 15, y1 + 63);
+                        p2.addPoint(x1 + 31, y1 + 63);
+                        p2.addPoint(x1 + 37, y1 + 48);
+                        p2.addPoint(x1 + 43, y1 + 63);
+                        p2.addPoint(x1 + 59, y1 + 63);
+                        p2.addPoint(x1 + 46, y1 + 73);
+                        p2.addPoint(x1 + 51, y1 + 88);
+                        p2.addPoint(x1 + 37, y1 + 78);
+                        p2.addPoint(x1 + 24, y1 + 88);
+                        p2.addPoint(x1 + 28, y1 + 73);
+                        g.setColor(Color.WHITE);
+                        g.drawPolygon(p2);
                    
 
                         
